@@ -1,6 +1,10 @@
-<div id="navigation-bar">
-  <%= link_to 'home', root_path %> |
-  <%= link_to 'portfolio', portfolio_index_path%> |
-  <%= link_to 'blog', blog_index_path%> |
-  <%= link_to 'resume', resume_path%>
-</div>
+<nav class="navbar">
+  <div class="navbar-logo">
+      <li><%= link_to 'home', root_path %></li>
+  </div>
+  <div class="navbar-links">
+      <li><%= link_to 'portfolio', portfolio_index_path %> | </li>
+      <li><%= link_to 'blog', blog_index_path %> | </li>
+      <li><%= link_to 'resume', resume_path %> </li>
+  </div>
+</nav>
