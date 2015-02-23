@@ -1,0 +1,95 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  position: relative;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.navbar-logo > li,
+.navbar-links > li {
+  display: inline;
+  list-style-type: none;
+}
+
+.navbar-logo,
+.navbar-links {
+  display: inline;
+}
+
+.navbar-links {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .navbar {
+    position: fixed;
+    top: 0;
+    background-color: #222;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Handle the widths */
+  .navbar,
+  .footer,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+
+/*.navbar-fixed-top {
+  border: 0;
+}
+
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+.navbar-header {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #2a6496;
+  text-decoration: none;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+*/
