@@ -1,0 +1,59 @@
+
+.navbar-logo,
+.navbar-links {
+  display: inline;
+}
+
+.navbar-links {
+  float: right;
+}
+
+.navbar-logo > li,
+.navbar-links > li {
+  display: inline;
+  list-style-type: none;
+}
+
+.navbar-logo > li > a,
+.navbar-links > li > a {
+  text-decoration: none;
+}
+
+.navbar-logo > li > a:link,
+.navbar-links > li > a:link {
+  color: red;
+}
+
+.navbar-logo > li > a:visited,
+.navbar-links > li > a:visited {
+  color: blue;
+}
+
+.navbar-logo > li > a:hover,
+.navbar-links > li > a:hover {
+  color: green;
+}
+
+
+
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .navbar {
+    position: fixed;
+    top: 0;
+
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Handle the widths */
+  .navbar,
+  .footer,
+  .cover-container {
+    width: 100%;
+    /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
