@@ -14,11 +14,12 @@
 
 </head>
 <body id="page-top" class="index">
+  <%= render 'layouts/navigation' %>
   <header>
-    <%= render 'layouts/navigation' %>
+    <%= yield %>
+
   </header>
 
-<%= yield %>
 
 </body>
 </html>
